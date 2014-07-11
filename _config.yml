@@ -1,0 +1,12 @@
+# Site settings
+title: memo.attractr
+email: yuki.n.0918@gmail.com
+description: ""
+baseurl: ""
+url: "http://memo.attractr.me"
+username: yukinaka
+twitter: yuki_naka18
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title.html

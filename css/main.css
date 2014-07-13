@@ -268,7 +268,21 @@ a:visited { color: #205caa; }
 }
 
 .post pre.terminal code { background-color: #333; }
-
+.post .social {
+  margin-left: 0;
+  list-style-type: none;
+}
+.social:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+.social > li {
+  float: left;
+}
+.social > li + li {
+  margin-left: 15px;
+}
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 

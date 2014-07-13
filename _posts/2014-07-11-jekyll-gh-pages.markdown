@@ -2,6 +2,7 @@
 layout: post
 title:  "Jekyll ＋ GitHub Pages + 独自ドメインでブログ作った"
 date:   2014-07-11
+type: post
 ---
 
 というわけで作った。

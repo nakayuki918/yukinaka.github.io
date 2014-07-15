@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LESSでコンパイルできない文字列を出力する"
+title:  "LESSでコンパイルエラーを起こす構文を文字列として出力する"
 date:   2014-07-15
 type: post
 ---

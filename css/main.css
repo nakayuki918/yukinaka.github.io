@@ -272,16 +272,19 @@ a:visited { color: #205caa; }
   margin-left: 0;
   list-style-type: none;
 }
-.social:after {
+/*.social:after {
   content:"";
   display: table;
   clear: both;
-}
+}*/
 .social > li {
-  float: left;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.3;
 }
 .social > li + li {
-  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/

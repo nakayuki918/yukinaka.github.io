@@ -1,12 +1,12 @@
 # Site settings
-title: AttractrLab
+title: CodePlus
 email: yuki.n.0918@gmail.com
 description: ""
 baseurl: ""
-url: "http://lab.attractr.me"
+url: "http://code-plus.jp"
 username: yukinaka
 twitter: yuki_naka18
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title.html
+permalink: /:title/

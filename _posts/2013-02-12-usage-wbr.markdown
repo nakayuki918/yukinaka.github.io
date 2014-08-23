@@ -1,0 +1,48 @@
+---
+layout: post
+title: "テキストの折り返し位置を指定するwbr要素の使い方"
+published: true
+date: 2013-02-12 09:57
+comments: true
+categories:
+- HTML・HTML5
+tags:
+- HTML
+keywords:
+- HTML・HTML5
+- HTML
+type: post
+---
+wbrは「word break」の略です。文章中で改行してもいい位置を示します。あくまで改行する位置ではないので、改行する位置を指定する場合は&lt;br&gt;を使用しましょう。
+領域内に収まりきらないときに、wbr要素で改行位置を指定していると、テキストがその位置で折り返されます。
+
+## wbr要素の使い方
+
+    <p>abcdefg<wbr>hijklmn<wbr>opqrstu<wbr>vwxyz<wbr>abcdefg<wbr>hijklmn<wbr>opqrstu<wbr>vwxyz<wbr>abcdefg<wbr>hijklmn<wbr>opqrstu<wbr>vwxyz<wbr>abcdefg<wbr>hijklmn<wbr>opqrstu<wbr>vwxyz<wbr>abcdefg<wbr>hijklmn<wbr>opqrstu<wbr>vwxyz</p>
+
+
+<p class="sample-txt">abcdefg<wbr>hijklmn<wbr>opqrstu<wbr>vwxyz<wbr>abcdefg<wbr>hijklmn<wbr>opqrstu<wbr>vwxyzabcdefg<wbr>hijklmn<wbr>opqrstu<wbr>vwxyz<wbr>abcdefg<wbr>hijklmn<wbr>opqrstu<wbr>vwxyz<wbr>abcdefg<wbr>hijklmn<wbr>opqrstu<wbr>vwxyz</p>
+
+やや分かりづらくて恐縮ですが、英字は特に何も指定しないと領域内からはみ出てしまうので、wbr要素が働いているのが分かります。領域が更に狭ければ、もう少し手前に配置したwbr要素の位置で改行が行われます。
+
+## 日本語で使う際にはwhite-space:nowrapを指定
+### HTML
+
+    <p class="wsnw">あいうえお<wbr>かきくけこ<wbr>さしすせそ<wbr>たちつてと<wbr>なにぬねの<wbr>はひふへほ<wbr>まみむめも<wbr>やゆよ<wbr>らりるれろ<wbr>わをん</p>
+
+### CSS
+
+    .wsnw { white-space:nowrap; }
+
+
+<p class="wsnw sample-txt">あいうえお<wbr>かきくけこ<wbr>さしすせそ<wbr>たちつてと<wbr>なにぬねの<wbr>はひふへほ<wbr>まみむめも<wbr>やゆよ<wbr>らりるれろ<wbr>わをん<wbr>あいうえお<wbr>かきくけこ<wbr>さしすせそ<wbr>たちつてと<wbr>なにぬねの<wbr>はひふへほ<wbr>まみむめも<wbr>やゆよ<wbr>らりるれろ<wbr>わをん<wbr>あいうえお<wbr>かきくけこ<wbr>さしすせそ<wbr>たちつてと<wbr>なにぬねの<wbr>はひふへほ<wbr>まみむめも<wbr>やゆよ<wbr>らりるれろ<wbr>わをん</p>
+
+日本語は元々自動で改行が行われるようになっているので、そのままではwbr要素を入れてもうまく働きません。改行位置を指定したい場合は、white-space:no-wrapを指定してあげましょう。
+
+## 追記
+
+- FireFoxでは日本語での改行がされませんでした。対処法を確認次第、再度更新致します。<br>（2013/02/12）
+- 確認しましたが、申し訳ないことに、FireFoxの日本語表示における改行位置の指定の具体的な解決方法は見つかりませんでした。<br>webkit系のブラウザ限定であれば有効となります。ご存知の方がいらっしゃいましたら、twitter等で教えていただければ幸いです。<br>（2013/02/13）
+
+---
+※この記事は WordPress に投稿した記事を変換したものです。一部不自然な表示があるかも知れません。ご了承ください。

@@ -1,0 +1,50 @@
+---
+layout: post
+title: "CSSやJavaScriptを編集した際にブラウザを自動更新してくれるChromeの拡張機能Tincr"
+published: true
+date: 2013-01-12 16:00
+comments: true
+categories:
+- Chorme
+tags:
+- Chrome
+- JavaScript
+keywords:
+- Chorme
+- JavaScript
+type: post
+---
+<img src="/img/2013/01/tincr.png" alt="tincrのサムネイル" width="760" height="205" class="alignnone size-full wp-image-72" />
+
+ファイルを編集した際にした際にブラウザをリロードしてくれるツールでは[CodeKit](http://incident57.com/codekit/ "CodeKIt")が有名ですが、Mac専用の上に、有料なので、SassやLESSなどを使用していない限りは使用している人はそんなに多くはないのかなと思ってます。
+
+Tincrは無料で利用できるChromeの拡張機能です。Tincrもブラウザの更新を行ってくれるツールの一つです。
+
+## Tincrの使い方
+まずTincrをChrome Storeからインストールしましょう。
+
+[Tincr](https://chrome.google.com/webstore/detail/tincr/lfjbhpnjiajjgnjganiaggebdhhpnbih "Tincr")
+
+確認ができたら、Googleのディベロッパーツールを開いて下さい。以下のようにTincrという項目が追加されているはずです。もし、項目がなければChromeの設定から拡張機能を選択し、Tincrを有効にしてあげてください。
+
+<img src="/img/2013/01/tincr.tool_.png" alt="ディベロッパーツールでTincrを確認" width="760" height="101" class="alignnone size-full wp-image-78" />
+
+Tincrの項目を選択すると、次のような画面が表示されます。
+
+<img src="/img/2013/01/tincr.menu_.png" alt="Tincrセッティング" width="457" height="301" class="alignnone size-full wp-image-84 d-size-img" />
+
+以下、設定手順です。画像を参考に設定してみて下さい。
+
+
+- ローカルホストを設定していないと使えないようなので、XAMPPやMAMPでローカルホストを設定しておきましょう。
+- Project TypeはHTTP Web Serverで問題ないはずです。必要に応じて変更してください。
+- Root Directoryはローカルホストに設定したディレクトリと同じディレクトリにしましょう。
+- Auto-Refreshにチェックを入れると、CSSやJavaScriptに変更を加え保存した時点でブラウザが更新されます。残念ながらHTMLは変更を加えても自動更新されません。
+- Auto-SaveはChromeのディベロッパーツールでCSSを編集した際に、元のCSSにも反映してくれるのでこれが結構便利です。反映されると困るというときはチェックを外しておきましょう。
+- Enable Loggingは必要な方のみチェックを入れてください。
+
+
+以上です。他にも色々なツールがありますが、Tincrは簡単に扱えるほうだと思うので、よかったら試してみてください。
+
+---
+※この記事は WordPress に投稿した記事を変換したものです。一部不自然な表示があるかも知れません。ご了承ください。

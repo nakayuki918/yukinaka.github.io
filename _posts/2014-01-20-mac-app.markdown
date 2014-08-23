@@ -1,0 +1,175 @@
+---
+layout: post
+title: "Mac (MacBook Pro Retina) にいれてるおすすめアプリの紹介"
+published: true
+date: 2014-01-20 09:00
+comments: true
+categories:
+- "アプリ"
+tags:
+- "アプリ"
+- "ツール"
+keywords:
+- "アプリ"
+- "アプリ"
+- "ツール"
+type: post
+---
+昨年末にMac Book Pro Retina 15inch を購入しました。色々とアプリをインストールしたので、その中からおすすめのアプリを紹介したいと思います。
+KeynoteやXcode(iOS simulator)などデフォルトに近い形のアプリの紹介は省きます。
+なお、どちらかというとフロントエンドの人向けです。
+
+
+## Sublime Text
+エディタです。主にHTMLやCSSを書くのに使ってます。Web(PHP) Stormなどもたまに使ったりしますが、慣れてないこともあり、Sublime Text 2に落ち着いています。⌘(ctrl)+Dによるmultiple selectionが便利です。
+
+[Sublime Text](http://www.sublimetext.com/ "Sublime Text")
+
+
+
+## Alfred
+高機能ランチャーソフトです。最近はAlfred Workflowを使用して、よりいっそう便利に使えてます。
+
+<a href="http://www.alfredapp.com/" ><img src="http://www.alfredapp.com/images/logo.png" class="mr1" alt="Alfred 2" width="70" >Alfred App
+</a>
+
+Alfred Workflowの説明は次の記事がわかりやすいと思います。[フロントエンド開発者向けのAlfred Workflow - アインシュタインの電話番号](http://blog.ruedap.com/2013/10/30/alfred-workflow-for-front-end-developers "フロントエンド開発者向けのAlfred Workflow - アインシュタインの電話番号")
+
+
+
+## Path Finder
+Finderの高機能拡張アプリです。独自のウインドウで開かれます。プレビュー画面がそのまま見れたり、画像サイズが見れたりと、とにかく高機能すぎるくらい拡張されています。
+
+<a href="http://cocoatech.com/pathfinder/" ><img src="http://cocoatech.com/assets/images/icon-pf6.png" class="mr1" alt="Path Finder" width="70" >Path Finder
+</a>
+
+
+
+
+## ForkLift
+FTPクライアント。MacのFTPクライアントと言えば、[Transmit](http://panic.com/jp/transmit/ "Transmit")が有名ですが、安くなってるときに買えてしまったのでForkLiftを使ってます。
+
+<a href="https://itunes.apple.com/jp/app/forklift-file-manager-ftp/id412448059" ><img src="http://a5.mzstatic.com/us/r30/Purple6/v4/ab/fd/84/abfd842c-d146-d512-a759-48c6c074136f/forklift.175x175-75.png" class="mr1" alt="ForkLift" width="70" >ForkLift
+</a>
+
+
+
+## CodeKit
+色々な機能はありますが、主にSass(SCSS)のコンパイル用に使ってます。
+
+<a href="http://incident57.com/codekit/" ><img src="http://incident57.com/codekit/images/hero-window.png" alt="CodeKit" >
+CodeKit
+</a>
+
+
+
+## Versions
+SVN(subversion)クライアントです。最近はGitがメインですが(gitは黒い画面でやってます。)、たまにSVNを使う必要があるときはこれを使ってます。
+
+<a href="http://versionsapp.com/" ><img src="https://register.madebysofa.com/versions/media/img/versions_48.png" class="mr1" alt="Versions" >Versions
+</a>
+
+
+
+## Kaleidoscope
+Diffツールです。画像ファイルの差分も見ることができます。
+
+<a href="https://itunes.apple.com/us/app/kaleidoscope/id587512244?mt=12" ><img src="http://a1.mzstatic.com/us/r30/Purple/v4/7d/77/7d/7d777db8-80b1-3e91-2641-4833cf401da0/Kaleidoscope.175x175-75.png" class="mr1" alt="Kaleidoscope" width="70">Kaleidoscope
+</a>
+
+
+
+## Airmail
+割りと新しいメールクライアントです。Gmailを主に使ってますが、複数アカウントがあるので、これに同期させて使っています。
+
+<a href="https://itunes.apple.com/jp/app/airmail/id573171375?mt=12" ><img src="http://a5.mzstatic.com/us/r30/Purple/v4/6d/40/12/6d401214-8ba2-342a-75a1-d2458d570b83/iconx.175x175-75.png" class="mr1" alt="Airmail" width="70">Airmail
+</a>
+
+
+
+## KeyRemap4MacBook
+OS X用のキーボードカスタマイズツールです。⌘キーで日本語と英語の切り替えができるように変更しています。
+
+<a href="https://pqrs.org/macosx/keyremap4macbook/index.html.ja" ><img src="https://pqrs.org/macosx/keyremap4macbook/img/launchpad.png" class="mr1" alt="KeyRemap4Macbook" width="70">KeyRemap4Macbook
+</a>
+
+
+
+## MAMP PRO
+Mac上にサーバーをインストールするソフトです。無料版と違い、簡単にバーチャルホストの設定ができます。
+
+<a href="http://www.mamp.info/" ><img src="http://www.mamp.info/en/images/mamppro_home.gif" class="mr1" alt="MAMP PRO" width="70">MAMP PRO
+</a>
+
+
+
+## JPEGmini
+jpegの画像圧縮ソフトです。画像のリサイズもまとめてやってくれます。
+
+<a href="https://itunes.apple.com/jp/app/jpegmini/id498944723?mt=12" ><img src="http://a3.mzstatic.com/us/r30/Purple4/v4/e5/1e/9e/e51e9e74-535f-ef6e-6ffe-408d1bff6802/JPEGmini.175x175-75.png" class="mr1" alt="JPEGmini" width="70">JPEGmini
+</a>
+
+
+
+## ImageOptim
+pngなどの画像の最適化/圧縮ソフトです。
+
+<a href="http://imageoptim.com/" ><img src="http://imageoptim.com/ImageOptim@2x.png" width="245" height="40" class="mr1" alt="ImageOptim">
+ImageOptim
+</a>
+
+
+
+## ImageAlpha
+pngの高圧縮ソフトです。
+
+<a href="http://pngmini.com/" ><img src="http://pngmini.com/icon.png" class="mr1" alt="ImageAlpha">ImageAlpha
+</a>
+
+
+
+## Slicy
+Photoshopのスライスを自動で行ってくれるアプリです。レイヤーにhoge.pngと名前をつけて、ドラッグアンドドロップするだけです。
+
+<a href="http://macrabbit.com/slicy/" ><img src="http://macrabbit.com/slicy/images/BannerIcon.png" class="mr1" alt="Slicy" width="70">Slicy
+</a>
+
+
+
+## CSS Hat
+PhotoshopのレイヤーからCSSのスタイルを抽出するアプリ。最近購入したなかで一番気に入ってます。SassやSCSS、LessなどのCSSプリプロセッサに合わせた形でも抽出してくれます。
+
+<a href="http://csshat.com/" >
+<img src="/img/2014/01/9714697b22d10ba69e57b3bdfae02483-300x258.png" alt="CSS Hat" width="70" class="alignnone size-medium wp-image-423 mr1" />CSS Hat</a>
+
+
+
+## TextExpander
+文字入力の補助ソフトですが、スニペットを登録して使っています。メールの定型文のようなものも登録してます。
+
+[TextExpander](http://smilesoftware.com/TextExpander/index.html "TextExpander")
+
+
+
+## VirtualBox
+仮想化ソフトウェアです。主にWindowsの確認用に使ってます。
+
+[VirtualBox](https://www.virtualbox.org/ "VirtualBox")
+
+
+
+## Validator S.A.C
+スタンドアローンで動くW3C準拠のバリデーターです。主にローカルで作業中のHTMLのバリデートチェックに使ってます。
+
+[Validator S.A.C](http://habilis.net/validator-sac/ "Validator S.A.C")
+
+
+
+他にも色々とアプリケーションはいれてますが、おすすめのものは以上です。
+
+有料アプリが多いですが、作業が早くなるのであれば、理論的には収入もあがるはずなので、便利だと感じたものはなるべく使ったほうがいいと思います。
+
+あと、「Vagrantでいいじゃん」とか、「それgruntのほうがいいよ」ってツッコミは置いておいてください。
+
+---
+※この記事は WordPress に投稿した記事を変換したものです。一部不自然な表示があるかも知れません。ご了承ください。

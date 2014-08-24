@@ -38,10 +38,10 @@ CSSを使用しての2つの対策方法を紹介します。
 ## span要素でdisplayプロパティの値を切り替えて改行
 2つめはspan要素にスタイルを充てる方法です。やや、HTMLの記述が面倒になります。この例文では、基本は「display:block」を指定することで擬似的に改行を作り、480px以下の際は「display:inline」を指定し、改行をなくしています。
 
-<h3>HTML</3>
+### HTML
 	<p><span class="br">これはspan要素を使用した際の例文です。</span><span class="br">2つ目の改行位置の変更方法を紹介しています。</span></p>
 
-<h3>CSS</3>
+### CSS
 	.br { display:block; }
 
 	@media screen and (max-width: 480px) {

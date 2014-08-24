@@ -450,3 +450,6 @@ a:visited { color: #205caa; }
 .pagination .older {
   float: right;
 }
+aside {
+  margin: 20px 0;
+}

@@ -434,3 +434,19 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+.pagination {
+  font-weight: bold;
+  margin-top: 60px;
+  list-style-type: none;
+}
+.pagination:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+.pagination .newer {
+  float: left;
+}
+.pagination .older {
+  float: right;
+}

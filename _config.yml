@@ -10,3 +10,5 @@ twitter: yuki_naka18
 # Build settings
 markdown: kramdown
 permalink: /:title/
+paginate: 10
+paginate_path: "/page:num"

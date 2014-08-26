@@ -453,3 +453,9 @@ a:visited { color: #205caa; }
 aside {
   margin: 20px 0;
 }
+aside span {
+  font-size: 12px;
+  color: #999;
+  display: block;
+  text-align: center;
+}
